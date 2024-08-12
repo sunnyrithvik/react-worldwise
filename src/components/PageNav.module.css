@@ -1,0 +1,17 @@
+.nav {
+    background-color: aquamarine;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.nav :global(.active) {
+    background-color: lightcyan;
+}
+
+:global(.test) {
+    background-color: lightslategray;
+}
